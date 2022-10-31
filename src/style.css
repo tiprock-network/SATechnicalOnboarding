@@ -268,3 +268,41 @@ html.is-leaving .transition-fade{
 .blockExp>h3>i{
     color: rgb(61, 206, 199);
 }
+
+.btndown{
+    width: 60%;
+    height: 60px;
+    padding: 10px 20px;
+    overflow-y: hidden;
+    border-bottom: 1px solid rgb(14, 107, 114);
+    
+    transform: translateX(0);
+    
+    cursor: pointer;
+    margin: 50px;
+    margin-left: 150px;
+}
+.btndown>h2:hover{
+   color: rgb(18, 123, 131);
+}
+
+#closebtn,#closebtnSec2{
+    width: 18px;
+    height: 18px;
+    padding: 5px;
+    overflow-y: hidden;
+    border: 1px solid #333;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+#two>a{
+    margin: 30px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+    color: rgb(14, 107, 114);
+}
