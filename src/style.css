@@ -306,3 +306,108 @@ html.is-leaving .transition-fade{
     font-size: 25px;
     color: rgb(14, 107, 114);
 }
+
+/*Smaller screens*/
+
+@media(max-width:800px){
+    .header{
+        width: 100%;
+        height: 500px;
+        
+    }
+    .header>a>img{
+        opacity: 0.7;
+        border: none;
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        transform: translateX(110px);
+        transition: all ease-in-out 0.5s;
+    }
+    .header>a>img:hover{
+        opacity: 1;
+    }
+    .header>h1{
+        font-weight: 800;
+        margin: 10px;
+    }
+    .header>p>a{
+        text-decoration: none;
+        color: rgb(14, 107, 114);
+    }
+    .header>p{
+        width: 80%;
+        font-size: 18px;
+        transform: translateX(15%);
+        word-wrap: break-word;
+    }
+    .finbtn{
+        margin: 10px;
+        padding: 10px 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        border: 1px solid #fff;
+        color: #fff;
+        background: rgb(14,107,114);
+        border-radius: 25px;
+        cursor: pointer;
+    }
+    .finbtn:hover{
+        background: rgb(18, 123, 131);
+    }
+    
+    nav{
+        width: 100%;
+        height: 400px;
+        
+        margin-bottom:10px ;
+        background: transparent;
+        position: absolute;
+        /*border: 1px solid #333;*/
+        overflow-y: hidden;
+    }
+    
+    nav>ul{
+        margin: 40px;
+        border: 1px solid #333;
+        border-radius: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav>ul>li{
+        display: block;
+        color: #fff;
+        margin-right: 20px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 0px;
+        cursor: pointer;
+        transition: ease-in-out 600ms;
+    }
+
+    .btndown{
+        width: 80%;
+        height: 60px;
+        padding: 10px 20px;
+        overflow-y: hidden;
+        border-bottom: 1px solid rgb(14, 107, 114);
+        
+        transform: translateX(0);
+        
+        cursor: pointer;
+        margin: 20px;
+        margin-left: 30px;
+    }
+    .btndown>h2{
+        word-wrap: break-word;
+        font-size: 18px;
+    }
+
+    main{
+        height: 1200px;
+    }
+   
+    
+}
