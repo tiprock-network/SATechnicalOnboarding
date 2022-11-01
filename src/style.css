@@ -8,7 +8,9 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif;
 */
-
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -84,12 +86,14 @@ nav>ul{
     margin: 40px;
     font-family: 'Poppins', sans-serif;
 }
-nav>ul>li{
+nav>ul>button{
     display: inline-block;
     color: #fff;
     margin-right: 20px;
     padding: 10px 20px;
-    border: 1px solid #333;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(70, 69, 69);
+    background: transparent;
     border-radius: 25px;
     cursor: pointer;
     transition: ease-in-out 600ms;
